@@ -1,6 +1,7 @@
 {
   "homepage": "https://marcinpietkiewicz.github.io/react-parallax-demo",
   "name": "react-parallax-demo",
+  "description": "Sample react parallax demo using react-parallax package",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
