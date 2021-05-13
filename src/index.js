@@ -26,22 +26,22 @@ const image4 =
 
 const App = () => (
   <div style={styles}>
-    <Hello name="Parallax" />
+    <Hello name="react i pakietu parallax" />
     <Parallax bgImage={image1} strength={500}>
       <div style={{ height: 500 }}>
-        <div style={insideStyles}>HTML inside the parallax</div>
+        <div style={insideStyles}>Przykładowy tekst</div>
       </div>
     </Parallax>
     <h2>| | |</h2>
     <Parallax bgImage={image3} blur={{ min: -1, max: 3 }}>
       <div style={{ height: 500 }}>
-        <div style={insideStyles}>Dynamic Blur</div>
+        <div style={insideStyles}>Dynamiczne rozmywanie</div>
       </div>
     </Parallax>
     <h2>| | |</h2>
     <Parallax bgImage={image2} strength={-100}>
       <div style={{ height: 500 }}>
-        <div style={insideStyles}>Reverse direction</div>
+        <div style={insideStyles}>Inny kierunek</div>
       </div>
     </Parallax>
     <h2>| | |</h2>
@@ -53,13 +53,13 @@ const App = () => (
           <div
             style={{
               position: "absolute",
-              background: `rgba(255, 125, 0, ${percentage * 1})`,
+              background: `rgba(30, 200, 0, ${percentage * 1})`,
               left: "50%",
               top: "50%",
               borderRadius: "50%",
               transform: "translate(-50%,-50%)",
-              width: percentage * 500,
-              height: percentage * 500
+              width: percentage * 600,
+              height: percentage * 600
             }}
           />
         </div>
@@ -82,18 +82,39 @@ const App = () => (
       </Background>
       <div>
         <br />
-        custom background component
+        Przykładowy element
         <br />
         <br />
-        custom background component
         <br />
         <br />
-        custom background component
+        Przykładowy element
+        <br />
+        <br />
+        <br />
+        <br />
+        Przykładowy element
+        <br />
+        <br />
+        <br />
+        <br />
+        Przykładowy element
+        <br />
+        <br />
+        <br />
+        <br />
+        Przykładowy element
+        <br />
+        <br />
+        <br />
+        <br />
+        Przykładowy element
+        <br />
+        <br />
         <br />
         <br />
       </div>
     </Parallax>
-    <div style={{ height: 500 }} />
+    <div style={{ height: 800 }} />
     <h2>{"\u2728"}</h2>
   </div>
 );
